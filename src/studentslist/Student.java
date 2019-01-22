@@ -14,6 +14,7 @@ public class Student {
    
     private String name;
     private int id;
+    private String Dob;
  
     public Student()
     {
@@ -38,11 +39,27 @@ public class Student {
     
     public void setId(int givenId)
     {
-            this.id = givenId;
+            id = givenId;
     }
     
     public int getId()
     {
         return id;
+    }
+
+    /**blue :means changed it
+     * green: new
+     * red : delete
+     * @return the Dob
+     */
+    public String getDob() {
+        return Dob;
+    }
+
+    /**
+     * @param Dob the Dob to set
+     */
+    public void setDob(String Dob) {
+        this.Dob = Dob;
     }
 }
