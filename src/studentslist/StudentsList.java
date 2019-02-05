@@ -23,7 +23,8 @@ public class StudentsList {
      
      Student s2 = new Student();
      Student s3 = new Student("John",456);
-     
+     Student s4 = new Student("Dien", 34);
+    
      System.out.println("BEFORE s1 ==> Name: "+ s1.getName() + " ID ="+ s1.getId() );
      System.out.println("s2 ==> Name: "+ s2.getName() + " ID ="+ s2.getId() );
      System.out.println("s3 ==> Name: "+ s3.getName() + " ID ="+ s3.getId() );
