@@ -57,10 +57,7 @@ public class Student {
         return Dob;
     }
 
-    /**
-     * @param Dob the Dob to set
-     */
-    public void setDob(String Dob) {
-        this.Dob = Dob;
+    public  String toString(){
+        return "Student";
     }
 }
