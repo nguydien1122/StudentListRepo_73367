@@ -37,7 +37,8 @@ public class StudentsList {
      studentList[4] = new Student("XYZ",2222);
      s1 = new Student("Smith",5555);
      System.out.println("AFTER s1 ==> Name: "+ s1.getName() + " ID ="+ s1.getId() );
-     
+     System.out.println("Hello there");
+    
      for (int i=0; i<studentList.length; i++)
          System.out.println("i= " + i + "==> Name: "+ studentList[i].getName() + " ID ="+ studentList[i].getId() );
      
